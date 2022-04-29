@@ -1,0 +1,17 @@
+.Escritorio{
+    width: 880px;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.Fondo{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:5px 5px 19px -2px #000000;
+    -moz-box-shadow:5px 5px 19px -2px #000000;
+    -webkit-box-shadow:5px 5px 19px -2px #000000;
+}
