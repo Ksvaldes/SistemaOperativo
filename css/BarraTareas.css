@@ -1,0 +1,46 @@
+.BTareas{
+    position:absolute;
+    background-color: var(--color1);
+    opacity: 0.9;
+    width:100%;
+    height:45px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo{
+      width: 25px;
+      height: 25px;
+      margin-left: 15px;
+      margin-top: 10px;
+  }
+    .reloj{
+    width: auto;
+    margin: 2px;
+    margin-top: 8px;
+    margin-right: -200px;
+    }
+  p{
+      text-align: center;
+      font-size: 12px;
+      color: var(--colorTexto);
+  }
+  .chrome{
+    width: 28px;
+    margin-left: -80px;
+    height: 28px;
+    margin-top: 10px;
+}
+  .carpetaEnBarra{
+      width: 28px;
+      margin-left: -250px;
+      height: 28px;
+      margin-top: 10px;
+  }
+  .mensaje{
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
