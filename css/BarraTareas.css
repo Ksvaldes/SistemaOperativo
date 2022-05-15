@@ -7,19 +7,29 @@
     z-index: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
+    .izquierda{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 1010px;
+
+    }
+  
   .logo{
       width: 25px;
       height: 25px;
       margin-left: 15px;
+      margin-right: 15px;
       margin-top: 10px;
   }
     .reloj{
     width: auto;
+    padding-left: 15px;
     margin: 2px;
     margin-top: 8px;
-    margin-right: -200px;
     }
   p{
       text-align: center;
@@ -28,29 +38,30 @@
   }
   .chrome{
     width: 28px;
-    margin-left: -80px;
+    margin-left: 40px;
     height: 28px;
     margin-top: 10px;
 }
   .carpetaEnBarra{
       width: 28px;
-      margin-left: -250px;
+      margin-left: 30px;
       height: 28px;
       margin-top: 10px;
   }
   .mensaje{
     width: 28px;
     height: 28px;
-    margin-right: 20px;
     margin-top: 10px;
   }
+
+
 
   /*__________________BUSCADOR___________________*/
 
   .buscador{
     width: 300px;
     height: 41px;
-    margin-left: -325px;
+    
     margin-top: 1px;
     opacity: 0.7;
     font-size: var(--Texto1);
@@ -62,7 +73,7 @@
     width: 20px;
     height: 20px;
   position: absolute;
-  margin-left: -310px;
-  margin-top: 10px;
+  margin-left: 20px;
+  margin-top: 11px;
   z-index: 1;
 }
