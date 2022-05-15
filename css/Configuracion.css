@@ -10,9 +10,13 @@ html{
 
 }
 
+
 :root{
     --color1: #09303b;
+    --color2: #384548;
     --colorTexto: #ffff;
+
+    --Texto1: 15px;
 
 }
 

@@ -1,24 +1,22 @@
 .Escritorio{
-    width: 880px;
-    height: auto;
+    width: 98%;
+    height: 780px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0.5%;
 
 }
 
   
-  .Fondo
+ .Fondo
   {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow:5px 5px 19px -2px #000000;
-    -moz-box-shadow:5px 5px 19px -2px #000000;
-    -webkit-box-shadow:5px 5px 19px -2px #000000;
+    box-shadow:5px 6px 64px 4px #000000;
+    -moz-box-shadow:5px 6px 64px 4px #000000;
+    -webkit-box-shadow:5px 6px 64px 4px #000000;
     position:absolute;
-    height:auto;
-    width:100%;
     z-index: -1;
   }
