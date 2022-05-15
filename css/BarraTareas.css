@@ -10,7 +10,6 @@
   }
     .izquierda{
     display: flex;
-    background-color: yellow;
     flex-direction: row;
     width: 150px;
     justify-content: center;
