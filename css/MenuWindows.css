@@ -5,28 +5,136 @@
     margin-top: 45px;
     opacity: 0.7;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+
     
 }
-.arriba{
-    width: 13%;
-    height: 50%;
-
+.cajita{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.parte1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: space-between;
+    border-right: 1px solid #455052;
 
 }
+.arriba{
+    width: 100%;
+    height: auto;
+}
 .abajo{
-    width: 13%;
-    height: 50%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.parte2{
+    width: 85%;
+    height: auto;
     display: flex;
-    margin-left: 10px;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.paraIz{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #455052;
+}
+.OpcionesApp{
+    width: 90%;
+    height: 35px;
+    border-bottom: 1px solid #fff;
+    margin: auto;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+}
+.OpcionesApp .tiempo{
+    width: 35px;
+    height: 30px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.OpcionesApp .otras{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+    margin-left: 15px;
+}
+.OpcionesApp .pequeña{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    margin-left: 15px;
+}
+
+a {
+color: aliceblue;
+text-decoration: none;
+font-size: 14px;
+}
+
+.paraIz p{
+    font-size: 13px;
+    text-align: left;
+    margin: 15px;
+    margin-top: 20px;
+}
+
+.paraDe{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.Apps{
+    width: 95%;
+    height: 95%;
+    margin-top: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.Apps p{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.Apps div{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    margin-top: 27px;
+    padding-top: 15px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
     align-items: center;
-    margin-top: 10px;
+    
+}
+
+.Aplicacion{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
 }
 
 
@@ -52,5 +160,6 @@
 
 .efecto :hover{
     background-color: var(--color5);
+    border-bottom: none;
 
 }
