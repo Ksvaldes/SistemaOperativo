@@ -1,4 +1,5 @@
 .menuWindows{
+    display:none;
     width: 33%;
     height: 50%;
     background-color: var(--color4);
@@ -6,12 +7,18 @@
     opacity: 0.7;
     position: absolute;
     z-index: 1;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     
 }
+.activar{
+    display: block;
+}
+.desactivar{
+    display: none;
+}
+
 .cajita{
     width: 100%;
     display: flex;

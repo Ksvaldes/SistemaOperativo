@@ -1,7 +1,13 @@
 //ABRIR MENU WINDOWS
+var windows = document.getElementById('menu');
+var ico_menu = document.getElementById('ico_menu');
+var Elfondo = document.getElementById('fondo');
 
-var menu = documentgetElementById('menu');
-var ico_menu = documentgetElementById('ico_menu');
+//FUNCION ACTIVAR
+function activar(){
+    menu.classList.add("activar");
+}
 
-//FUNCION
+//EVENTO
+ico_menu.addEventListener('click',activar);
 
